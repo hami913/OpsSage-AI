@@ -1,0 +1,13 @@
+project:
+  name: OpsSage AI
+  version: 0.1.0
+  environment: development
+
+anomaly_detection:
+  algorithm: IsolationForest
+  contamination: 0.05
+  random_state: 42
+
+logging:
+  level: INFO
+  file: logs/opssage.log
